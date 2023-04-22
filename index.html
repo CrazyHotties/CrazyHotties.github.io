@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <title>Raising HELL</title>
+  <script src="script.js" defer></script>
+  <script>
+    window.onload = function () {
+      alert("YOU MUST BE 18 TO ENTER");
+    };
+  </script>
+
+  <script>
+function downloadFile() {
+  const url = "./AroundTheWorldSample.mp3";
+  const filename = "AroundTheWorldSample.mp3";
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+</script>
+
+  <script src="daywalkers.js" defer></script>
+
+
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<style>
+#toppper{
+  
+  text-align: center;
+  color: lime;
+  font-size: 60pt;
+}
+
+
+  
+</style>
+  
+<body>
+
+<h1 id="topper">HOTTIE FINDER</h1>
+  
+  <h1 id="header">Real Power to the "PLAYAS"</h1>
+
+  <div class="hottie">
+
+    <p id="free">FREE HOTTIES IN YOUR AREA!!!</p>
+
+    <img src="https://cdn.pixabay.com/photo/2020/06/13/13/18/woman-5294226_1280.jpg" id="gurl" onmouseover="this.src='https://media.tenor.com/1pDqTTjuXhcAAAAM/verne-stare.gif'
+" onmouseout="this.src='https://cdn.pixabay.com/photo/2020/06/13/13/18/woman-5294226_1280.jpg'" onclick="boom()" ;>
+    <br>
+
+  </div>
+
+  <textarea id="input" placeholder="ENTER YOUR PHONE NUMBER"></textarea>
+
+  <br>
+
+
+    <button id="getHottie" onclick="meats()";>GO TO THE HOTTIES</button>
+
+  <h3 id="creditHeader">WANT HOTTIES? FIRST VERIFY YOUR CREDIT CARD</h3>
+  
+  <a href="gettingThemDown.html">
+  <button id="neoWarp">
+    VERIFY YOUR CREDIT CARD
+  </button> </a>
+<button id="download" onclick="downloadFile()">Download</button>
+
+</body>
+
+</html>

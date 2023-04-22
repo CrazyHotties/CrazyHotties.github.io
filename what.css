@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+.hottieHeader{
+  font-family: 'Bruno Ace SC', cursive;
+  color: rebeccapurple;
+  text-align: center;
+  font-size: 50pt;
+}
+
+.pic{
+  margin:auto;
+  display: flex;
+  justify-self: center;
+  height: 300px;
+  width:300px;
+}

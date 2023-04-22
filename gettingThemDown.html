@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet">
+<script src="script.js" defer></script>
+
+  <script>
+        function email_onEnter(e) {
+            const val = document.getElementById("email").value;
+            if (val[val.length - 1] == "\n") {
+                alert("CREDIT CARD VERIFED");
+                document.getElementById("email").value = "";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+<textarea placeholder="ENTER YOUR CREDIT CARD NUMBER" id="email" oninput="email_onEnter()"></textarea>
+
+  <a href="hotties.html">
+  <button id="neoWarp">
+    MEET THE HOTTIES
+  </button> </a>
+</body>
+
+</html>

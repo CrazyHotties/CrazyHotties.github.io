@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+  background-color: #000000;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#toppper{
+  
+text-align: center;
+  color: lime;
+  font-size: 100px;
+}
+
+#header{
+  text-align: center;
+  color: lime;
+  font-size: 60pt;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.hottie{
+  background-color:lightblue;
+  
+}
+
+#gurl{
+  margin: auto;
+  display: flex;
+  justify-self: center;
+  height: 300px;
+  width: 250px;
+}
+
+#free{
+  text-align: center;
+  font-size: 35pt;
+  color: #ffffff;
+  
+}
+
+
+#getHottie{
+  margin: auto;
+  display: flex;
+justify-self: center;
+  color:orange;
+  font-size:50pt; 
+  text-decoration: none;
+}
+
+#neoWarp{
+  margin:auto;
+  display: flex;
+  justify-self: center;
+  height: 40px;
+  width: 30px;
+}
+
+#input{
+  margin: auto;
+  display: flex;
+  justify-self: center;
+}
+
+#creditHeader{
+  color: lime;
+  text-align: center;
+  font-size: 30pt;
+}
